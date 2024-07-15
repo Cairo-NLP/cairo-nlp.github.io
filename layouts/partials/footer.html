@@ -3,7 +3,20 @@
         <span>{{ . | safeHTML }}</span>
     {{ else }}
         <span>
-            © {{ now.Format "2006" }} {{ .Site.Params.author.name }}, All Rights Reserved.
+            <nav class="footerLinks">
+                {{ if isset .Site.Params "social" }}
+                    {{ partial "social.html" . }}
+                {{ end }}
+                <ul>
+                    {{ range .Site.Menus.footer }}
+                    <li>
+                        <a href="{{ .URL | absURL }}" title="{{ .Title }}" >
+                            ~/{{- .Name -}}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </nav>
         </span>
     {{ end }}
 </footer>

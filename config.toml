@@ -3,6 +3,16 @@ languageCode = 'en-us'
 title = 'Cairo NLP'
 
 theme = "nightfall"
+[menu]
+  [[menu.header]]
+    name = "about"
+    weight = 0
+    url = "about"
+  [[menu.header]]
+    name = "events"
+    weight = 1
+    url = "events"
+
 
 [params]
 user = "cairo nlp"
@@ -12,10 +22,14 @@ hostname = "io"
     name = "cAIro NLP Group"
     email = "cairo.nlp.group@gmail.com"
 
+
 [[params.social]]
 key = 0
 name = "github"
 url = "https://github.com/Cairo-NLP"
-icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
-target = "_blank" # Defines your target option in a-href. _blank for a new Tab for example.
-aria = "GitHub Profile" # Define the aria label for accessibility like page reader - this is better for your SEO
+
+
+[[params.social]]
+key = 1
+name = "email"
+url = "mailto:cairo.nlp.group@gmail.com"
