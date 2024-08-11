@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>events on Cairo NLP</title>
+    <link>http://localhost:1313/events/</link>
+    <description>Recent content in events on Cairo NLP</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>cairo.nlp.group@gmail.com (cAIro NLP Group)</managingEditor>
+    <webMaster>cairo.nlp.group@gmail.com (cAIro NLP Group)</webMaster>
+    <atom:link href="http://localhost:1313/events/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -28,6 +28,8 @@ key = 0
 name = "github"
 url = "https://github.com/Cairo-NLP"
 
+target = "_blank" # Defines your target option in a-href. _blank for a new Tab for example.
+aria = "GitHub Profile" # Define the aria label for accessibility like page reader - this is better for your SEO
 
 [[params.social]]
 key = 1

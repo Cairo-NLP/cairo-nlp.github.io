@@ -1,0 +1,40 @@
+.team-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.team-photo {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.team-photo img {
+    width: 250px; /* Set the width you prefer */
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%; /* Makes the image circular */
+}
+
+.team-info {
+    flex-grow: 1;
+}
+
+.team-info h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+.team-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.team-info p {
+    margin: 5px 0;
+}

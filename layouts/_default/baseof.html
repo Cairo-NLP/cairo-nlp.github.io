@@ -4,10 +4,12 @@
 <head>
     <title>{{ block "title" . }}
         {{ .Site.Title }}
-        {{ end }}</title>
+    {{ end }}</title>
 
     {{ partial "head.html" . }}
 
+    <!-- Link to Custom CSS -->
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 
 <body>
@@ -21,7 +23,6 @@
                 {{ end }}
             </main>
         </div>
-
 
         {{ partial "footer.html" . }}
     </div>
