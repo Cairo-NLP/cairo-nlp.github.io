@@ -18,6 +18,7 @@ CairoNLP was founded with the mission to:
 
 Whether you're a curious beginner, a student looking to expand your knowledge, or an experienced professional, CairoNLP offers a space for you to connect, learn, and grow. Join us in our journey to enhance the NLP ecosystem in Cairo and contribute to the global language technology community.
 
+
 Get involved today and be part of shaping the future of NLP in Egypt!
 
 
