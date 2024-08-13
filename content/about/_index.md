@@ -1,5 +1,4 @@
 +++
-menu = 'header'
 weight = 10
 showMetadata = false
 +++

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to My Site on Cairo NLP</title>
+    <title>Cairo NLP</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Welcome to My Site on Cairo NLP</description>
+    <description>Recent content on Cairo NLP</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>cairo.nlp.group@gmail.com (cAIro NLP Group)</managingEditor>
     <webMaster>cairo.nlp.group@gmail.com (cAIro NLP Group)</webMaster>
-    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
