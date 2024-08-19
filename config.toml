@@ -19,7 +19,7 @@ user = "cairo nlp"
 hostname = "io"
 
   [params.author]
-    name = "cAIro NLP Group"
+    name = "cAIro|NLP Group"
     email = "cairo.nlp.group@gmail.com"
 
 

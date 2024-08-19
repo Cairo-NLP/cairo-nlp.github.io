@@ -1,18 +1,9 @@
 - name: "Ahmed Abdou"
   role: "Founder"
   description: "Msc. Data Science @TUM, Bsc. Computer Science @GUC"
-  image: "/images/team/ahmed.png"
+  image: "/images/team/pic.jpeg"
 
 - name: "Ahmed Elsherif"
   role: "Founder"
   description: "M.Sc. Data Science @TUM, B.Sc. Computer Science @GUC"
   image: "/images/team/Elsherif.jpg"
-
-- name: "Team Member 3"
-  role: "Founder"
-  description: "Bsc. Computer Science @GUC"
-
-- name: "Team Member 4"
-  role: "Founder"
-  description: "Bsc. Computer Science @GUC"
-
