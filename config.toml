@@ -9,8 +9,12 @@ theme = "nightfall"
     weight = 0
     url = "about"
   [[menu.header]]
-    name = "events"
+    name = "eli5"
     weight = 1
+    url = "eli5"
+  [[menu.header]]
+    name = "events"
+    weight = 2
     url = "events"
 
 
@@ -35,3 +39,9 @@ aria = "GitHub Profile" # Define the aria label for accessibility like page read
 key = 1
 name = "email"
 url = "mailto:cairo.nlp.group@gmail.com"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

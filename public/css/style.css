@@ -38,3 +38,14 @@
 .team-info p {
     margin: 5px 0;
 }
+
+.arabic-content {
+    direction: rtl !important;
+    text-align: right !important;
+    unicode-bidi: embed !important;
+}
+
+.postWrapper {
+    font-size: 17px;  /* Adjust the size as needed */
+    line-height: 1.6; /* Increase line height for better readability */
+}

@@ -29,6 +29,17 @@
                 <dt>{{ i18n "reading_time" }}</dt>
                 <dd>{{ i18n "reading_time_desc" .ReadingTime }}</dd>
             {{ end }}
+            <!-- Custom Metadata: Written by -->
+            {{ if .Params.written_by }}
+                <dt>Written by</dt>
+                <dd>{{ .Params.written_by }}</dd>
+            {{ end }}
+
+            <!-- Custom Metadata: Translated by -->
+            {{ if .Params.translated_by }}
+                <dt>Translated by</dt>
+                <dd>{{ .Params.translated_by }}</dd>
+            {{ end }}
         </dl>
     </section>
     {{ end }}
