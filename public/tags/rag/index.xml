@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RAG on Cairo NLP</title>
+    <link>http://localhost:1313/tags/rag/</link>
+    <description>Recent content in RAG on Cairo NLP</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>cairo.nlp.group@gmail.com (cAIro|NLP Group)</managingEditor>
+    <webMaster>cairo.nlp.group@gmail.com (cAIro|NLP Group)</webMaster>
+    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/rag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with LLMs and RAG</title>
+      <link>http://localhost:1313/talks/talk_1/hassan_talk/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
+      <guid>http://localhost:1313/talks/talk_1/hassan_talk/</guid>
+      <description>Abstract Large Language Models (LLMs) have revolutionized natural language processing, but they face challenges with hallucination and outdated knowledge. This introductory talk explores Retrieval-Augmented Generation (RAG) as a solution that combines the reasoning capabilities of LLMs with real-time information retrieval from external knowledge sources. Perfect for beginners wanting to understand the RAG paradigm and experienced developers looking to implement their first RAG application.&#xA;Speaker Bio Hassan is Senior Applied Scientist at Microsoft, with more than 6 years of experience within NLP and AI across multilple locations along with Egypt, US, UK and Canada.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,37 +1,310 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-
 <head>
     <title>
         {{ i18n "home" }} | {{ .Site.Params.author.name }}
     </title>
-
     {{ partial "head.html" . }}
-
 </head>
-
 <body>
-
     <div class="flexWrapper">
         {{ partial "header.html" . }}
-
         <div class="content vertical">
             <main class="main">
                 <div class="indexWrapper">
-                    <div>
-                        <img src="{{ "images/logo/logo.png" | relURL }}" alt="Logo">
-                        <h3 align="center">
-                            Welcome to the Cairo NLP Group! Founded in July 2024. Whether you’re a student, professor, industry professional, or just curious about NLP, Arabic, and Egyptian NLP, you’re in the right place. Join us for online talks, fun discussions, demos, and virtual and in-person meet-ups in cairo. Let’s learn and grow together in the exciting world of NLP!
-                        </h3>
-                     </div>
+                    <!-- Hero Section -->
+                    <div class="hero-section">
+                        <img src="{{ "images/logo/logo.png" | relURL }}" alt="Cairo NLP Logo" class="hero-logo">
+                        <h1 class="hero-title">Cairo NLP Group</h1>
+                        <p class="hero-description">
+                            Whether you're a student, professor, industry professional, or just curious about NLP, Arabic, and Egyptian NLP, you're in the right place. Join us for online talks, fun discussions, demos, and virtual and in-person meet-ups in Cairo. Let's learn and grow together in the exciting world of NLP!
+                        </p>
+                    </div>
+
+                    <!-- Quick Stats -->
+                    <div class="stats-section">
+                        <div class="stat-item">
+                            <h3>Founded</h3>
+                            <p>July 2024</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>Focus Areas</h3>
+                            <p>Arabic NLP</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>Community</h3>
+                            <p>Students, Researchers, Industry</p>
+                        </div>
+                    </div>
+
+                    <!-- Upcoming Events -->
+                    <div class="section">
+                        <h2>🎤 Upcoming Talks</h2>
+                        {{ $upcomingTalks := where (where .Site.Pages "Section" "talks") ".Params.status" "upcoming" }}
+                        {{ if $upcomingTalks }}
+                            {{ range first 2 $upcomingTalks }}
+                            <div class="event-card">
+                                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                                <p class="event-meta">
+                                    <strong>{{ .Params.speaker }}</strong>
+                                    {{ if .Params.affiliation }} • {{ .Params.affiliation }}{{ end }}
+                                    <br>
+                                    {{ .Params.event_date | dateFormat "January 2, 2006" }}
+                                    {{ if .Params.time }} • {{ .Params.time }}{{ end }}
+                                </p>
+                            </div>
+                            {{ end }}
+                            <p><a href="/talks" class="view-all-link">View all talks →</a></p>
+                        {{ else }}
+                            <p>No upcoming talks scheduled. <a href="/talks">Check our past talks</a> or stay tuned for announcements!</p>
+                        {{ end }}
+                    </div>
+
+                    <!-- Recent Activity -->
+                    <div class="section">
+                        <h2>📚 Recent Activity</h2>
+                        {{ $recentTalks := where (where .Site.Pages "Section" "talks") ".Params.status" "completed" }}
+                        {{ if $recentTalks }}
+                            {{ range first 3 $recentTalks }}
+                            <div class="activity-item">
+                                <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                                <p class="activity-meta">{{ .Params.speaker }} • {{ .Params.event_date | dateFormat "Jan 2" }}</p>
+                            </div>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+
+                    <!-- What We Do -->
+                    <div class="section">
+                        <h2>🚀 What We Do</h2>
+                        <div class="features-grid">
+                            <div class="feature-item">
+                                <h3>🎯 Regular Talks</h3>
+                                <p>Expert presentations on cutting-edge Arabic NLP research and industry applications</p>
+                            </div>
+                            <div class="feature-item">
+                                <h3>🤝 Community Building</h3>
+                                <p>Connect with researchers, students, and professionals working on Arabic language technology</p>
+                            </div>
+                            <div class="feature-item">
+                                <h3>📖 Knowledge Sharing</h3>
+                                <p>Share resources, datasets, tools, and research findings with the community</p>
+                            </div>
+                            <div class="feature-item">
+                                <h3>🌍 Local & Online</h3>
+                                <p>Both virtual events and in-person meetups in Cairo for maximum accessibility</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Join Us -->
+                    <div class="section cta-section">
+                        <h2>Join the Community</h2>
+                        <div class="cta-buttons">
+                            <a href="https://www.linkedin.com/company/cairo-nlp/" target="_blank" rel="noopener" class="cta-button linkedin">
+                                <i class="fab fa-linkedin"></i>
+                                Follow Us
+                            </a>
+                            <a href="https://www.linkedin.com/groups/13083127/" target="_blank" rel="noopener" class="cta-button linkedin-group">
+                                <i class="fab fa-linkedin"></i>
+                                Join Group
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </main>
         </div>
-
-
         {{ partial "footer.html" . }}
     </div>
 
-</body>
+    <style>        
+    .hero-section {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding: 2rem 0;
+    }
 
+    .hero-logo {
+        max-width: 120px;
+        margin-bottom: 1rem;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        color: var(--text-primary, #fff);
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+        color: var(--text-muted, #888);
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-description {
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.6;
+        color: var(--text-secondary, #ccc);
+    }
+
+    .stats-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 3rem;
+        padding: 2rem;
+        background: var(--card-background, #1a1a1a);
+        border-radius: 8px;
+        border: 1px solid var(--border-color, #333);
+    }
+
+    .stat-item {
+        text-align: center;
+    }
+
+    .stat-item h3 {
+        margin-bottom: 0.5rem;
+        color: var(--text-primary, #fff);
+    }
+
+    .stat-item p {
+        color: var(--text-muted, #888);
+    }
+
+    .section {
+        margin-bottom: 3rem;
+    }
+
+    .section h2 {
+        margin-bottom: 1.5rem;
+        color: var(--text-primary, #fff);
+    }
+
+    .event-card {
+        background: var(--card-background, #1a1a1a);
+        border: 1px solid var(--border-color, #333);
+        border-radius: 8px;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .event-card h3 {
+        margin-bottom: 0.5rem;
+    }
+
+    .event-card h3 a {
+        color: var(--text-primary, #fff);
+        text-decoration: none;
+    }
+
+    .event-meta {
+        color: var(--text-muted, #888);
+        font-size: 0.9rem;
+    }
+
+    .activity-item {
+        padding: 0.75rem 0;
+        border-bottom: 1px solid var(--border-color, #333);
+    }
+
+    .activity-item:last-child {
+        border-bottom: none;
+    }
+
+    .activity-item h4 {
+        margin-bottom: 0.25rem;
+    }
+
+    .activity-item h4 a {
+        color: var(--text-primary, #fff);
+        text-decoration: none;
+    }
+
+    .activity-meta {
+        color: var(--text-muted, #888);
+        font-size: 0.85rem;
+    }
+
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .feature-item {
+        background: var(--card-background, #1a1a1a);
+        border: 1px solid var(--border-color, #333);
+        border-radius: 8px;
+        padding: 1.5rem;
+    }
+
+    .feature-item h3 {
+        margin-bottom: 0.75rem;
+        color: var(--text-primary, #fff);
+    }
+
+    .feature-item p {
+        color: var(--text-secondary, #ccc);
+        line-height: 1.5;
+    }
+
+    .cta-section {
+        text-align: center;
+        padding: 2rem;
+        background: var(--card-background, #1a1a1a);
+        border-radius: 8px;
+        border: 1px solid var(--border-color, #333);
+    }
+
+    .cta-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+
+    .cta-button {
+        padding: 0.75rem 1.5rem;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+
+    .cta-button.primary {
+        background: var(--accent-color, #007bff);
+        color: white;
+        border: 1px solid var(--accent-color, #007bff);
+    }
+
+    .cta-button.secondary {
+        background: transparent;
+        color: var(--text-primary, #fff);
+        border: 1px solid var(--border-color, #333);
+    }
+
+    .cta-button:hover {
+        transform: translateY(-2px);
+    }
+
+    .view-all-link {
+        color: var(--accent-color, #007bff);
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    @media (max-width: 768px) {
+        .cta-buttons {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .hero-title {
+            font-size: 2rem;
+        }
+    }
+    </style>
+</body>
 </html>

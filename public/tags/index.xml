@@ -8,6 +8,42 @@
     <language>en-us</language>
     <managingEditor>cairo.nlp.group@gmail.com (cAIro|NLP Group)</managingEditor>
     <webMaster>cairo.nlp.group@gmail.com (cAIro|NLP Group)</webMaster>
+    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arabic</title>
+      <link>http://localhost:1313/tags/arabic/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
+      <guid>http://localhost:1313/tags/arabic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datasets</title>
+      <link>http://localhost:1313/tags/datasets/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
+      <guid>http://localhost:1313/tags/datasets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>http://localhost:1313/tags/tools/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
+      <guid>http://localhost:1313/tags/tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>http://localhost:1313/tags/llm/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
+      <guid>http://localhost:1313/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RAG</title>
+      <link>http://localhost:1313/tags/rag/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
+      <guid>http://localhost:1313/tags/rag/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

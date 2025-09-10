@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arabic Nlp on Cairo NLP</title>
+    <link>http://localhost:1313/tags/arabic-nlp/</link>
+    <description>Recent content in Arabic Nlp on Cairo NLP</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>cairo.nlp.group@gmail.com (cAIro|NLP Group)</managingEditor>
+    <webMaster>cairo.nlp.group@gmail.com (cAIro|NLP Group)</webMaster>
+    <lastBuildDate>Thu, 15 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/arabic-nlp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arabic Sentiment Analysis: Challenges and Solutions</title>
+      <link>http://localhost:1313/talks/talk_1/hassan_talk/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
+      <guid>http://localhost:1313/talks/talk_1/hassan_talk/</guid>
+      <description>Abstract This talk explores the unique challenges of sentiment analysis in Arabic text, including dialectal variations, morphological complexity, and limited labeled datasets.&#xA;Speaker Bio Dr. Ahmed Mohamed is a professor of computational linguistics at Cairo University with 10 years of experience in Arabic NLP.&#xA;Slides Download slides&#xA;Recording Watch recording</description>
+    </item>
+  </channel>
+</rss>

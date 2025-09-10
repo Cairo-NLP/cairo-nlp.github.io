@@ -9,13 +9,13 @@ theme = "nightfall"
     weight = 0
     url = "about"
   [[menu.header]]
-    name = "eli5"
+    name = "talks"
     weight = 1
-    url = "eli5"
+    url = "talks"
   [[menu.header]]
-    name = "events"
+    name = "paper-digest"
     weight = 2
-    url = "events"
+    url = "paper-digest"
 
 
 [params]

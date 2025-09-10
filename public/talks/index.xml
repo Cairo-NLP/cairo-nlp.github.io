@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cairo NLP</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Cairo NLP</description>
+    <title>talks on Cairo NLP</title>
+    <link>http://localhost:1313/talks/</link>
+    <description>Recent content in talks on Cairo NLP</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>cairo.nlp.group@gmail.com (cAIro|NLP Group)</managingEditor>
     <webMaster>cairo.nlp.group@gmail.com (cAIro|NLP Group)</webMaster>
     <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/talks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arabic NLP Tools and Datasets</title>
       <link>http://localhost:1313/talks/talk_2/jarrar_talk/</link>
@@ -23,13 +23,6 @@
       <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
       <guid>http://localhost:1313/talks/talk_1/hassan_talk/</guid>
       <description>Abstract Large Language Models (LLMs) have revolutionized natural language processing, but they face challenges with hallucination and outdated knowledge. This introductory talk explores Retrieval-Augmented Generation (RAG) as a solution that combines the reasoning capabilities of LLMs with real-time information retrieval from external knowledge sources. Perfect for beginners wanting to understand the RAG paradigm and experienced developers looking to implement their first RAG application.&#xA;Speaker Bio Hassan is Senior Applied Scientist at Microsoft, with more than 6 years of experience within NLP and AI across multilple locations along with Egypt, US, UK and Canada.</description>
-    </item>
-    <item>
-      <title>1. Abstraction of NLP - تجريدُ معالجةِ اللغاتِ الطبيعية</title>
-      <link>http://localhost:1313/eli5/post_1/</link>
-      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
-      <guid>http://localhost:1313/eli5/post_1/</guid>
-      <description>We as humans, by nature, understand text &amp;ldquo;natural language&amp;rdquo;; machines, by nature, understand numbers (in one way or another numerical representation).&#xA;If we want to visualize any NLP task, it could be viewed as:&#xA;Taking text as input. Preprocessing it and getting the numerical representation of this text. Passing it to a model to &amp;ldquo;understand&amp;rdquo; the input to extract the needed features and perform the given task. Taking the output from the model, which would be represented as some numerical representation as well, and post-processing it to convert this output into some text (if needed).</description>
     </item>
   </channel>
 </rss>

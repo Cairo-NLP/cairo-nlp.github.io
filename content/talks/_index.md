@@ -1,6 +1,6 @@
 +++
 menu = 'header'
-title = 'events'
+title = 'talks'
 weight = 10
 showMetadata = false
 +++
