@@ -6,71 +6,65 @@ draft: false
 
 ### Interactive UMAP visualization of research papers in Arabic NLP conferences (2023–2025)
 
+Click the buttons for: 
 {{< rawhtml >}}
-<div style="border: 2px solid #4a5568; 
-            border-radius: 8px; 
-            padding: 30px; 
-            margin: 40px 0;
-            text-align: center;
-            background: #ffffff;">
+<div style="text-align: center; 
+            padding: 25px; 
+            margin: 30px 0;">
     <div style="display: flex; 
                 justify-content: center; 
                 align-items: center; 
-                gap: 30px; 
+                gap: 20px; 
                 flex-wrap: wrap;">
         
-        <!-- Interactive Map Button -->
+        <!-- Interactive Map -->
         <a href="https://cairo-nlp.github.io/paper-map/" 
            target="_blank"
-           style="display: inline-flex;
-                  align-items: center;
-                  padding: 16px 32px; 
+           style="padding: 12px 24px; 
                   background: #2d3748;
                   color: white; 
                   text-decoration: none; 
                   border-radius: 6px; 
-                  font-size: 16px; 
+                  font-size: 15px; 
                   font-weight: 600;
-                  transition: all 0.2s ease;
-                  cursor: pointer;
-                  border: 2px solid #2d3748;"
-           onmouseover="this.style.background='#4a5568'; this.style.borderColor='#4a5568';"
-           onmouseout="this.style.background='#2d3748'; this.style.borderColor='#2d3748';">
-            <span style="margin-right: 8px;">🗺️</span>
-            Go to Interactive Map
-            <span style="margin-left: 8px;">→</span>
+                  transition: all 0.2s ease;"
+           onmouseover="this.style.background='#4a5568';"
+           onmouseout="this.style.background='#2d3748';">
+            🗺️ Interactive Map
         </a>
         
-        <span style="color: #718096; font-weight: 500; font-size: 16px;">
-            OR
-        </span>
+        <!-- GitHub Repo -->
+        <a href="https://github.com/Cairo-NLP/Arabic-NLP-Papers-visualization" 
+           target="_blank"
+           style="padding: 12px 24px; 
+                  background: #2d3748;
+                  color: white; 
+                  text-decoration: none; 
+                  border-radius: 6px; 
+                  font-size: 15px; 
+                  font-weight: 600;
+                  transition: all 0.2s ease;"
+           onmouseover="this.style.background='#4a5568';"
+           onmouseout="this.style.background='#2d3748';">
+            💻 GitHub Repo
+        </a>
         
-        <!-- Continue Reading Button -->
-        <a href="" 
-           style="display: inline-flex;
-                  align-items: center;
-                  padding: 16px 32px; 
-                  background: transparent;
+        <!-- Continue Reading -->
+        <a href="#overview" 
+           style="padding: 12px 24px; 
+                  background: white;
                   color: #2d3748; 
                   text-decoration: none; 
                   border: 2px solid #2d3748;
                   border-radius: 6px; 
-                  font-size: 16px; 
+                  font-size: 15px; 
                   font-weight: 600;
-                  transition: all 0.2s ease;
-                  cursor: pointer;"
-           onmouseover="this.style.background='#f7fafc'; this.style.borderColor='#4a5568';"
-           onmouseout="this.style.background='transparent'; this.style.borderColor='#2d3748';">
-            <span style="margin-right: 8px;">📖</span>
-            Continue to Read the Code
-            <span style="margin-left: 8px;">↓</span>
+                  transition: all 0.2s ease;"
+           onmouseover="this.style.background='#f7fafc';"
+           onmouseout="this.style.background='white';">
+            📖 Read Below ↓
         </a>
     </div>
-    
-    <p style="margin-top: 20px; 
-              color: #718096; 
-              font-size: 14px;">
-    </p>
 </div>
 {{< /rawhtml >}}
 
