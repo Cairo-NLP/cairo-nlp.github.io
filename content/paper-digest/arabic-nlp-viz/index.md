@@ -130,12 +130,13 @@ python3 runner.py --base-url "https://aclanthology.org/2024.arabicnlp-1.{id}" --
 
 # ArabicNLP 2023
 python3 runner.py --base-url "https://aclanthology.org/2023.arabicnlp-1.{id}" --year 2023 --start 1 --end 91 --delay 10.0
-
+```
 
 ### 1.2 Import and collect metadata in dataframe
 
 
 ```python
+
 import os
 import requests
 import umap
@@ -152,12 +153,7 @@ import altair as alt
 from sklearn.cluster import KMeans
 from sklearn.feature_extraction.text import CountVectorizer
 from bertopic.vectorizers import ClassTfidfTransformer
-
 ```
-
-    /Users/ahmed/Desktop/arabic-nlp-2025-viz/.venv/lib/python3.11/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
-      from .autonotebook import tqdm as notebook_tqdm
-
 
 
 ```python

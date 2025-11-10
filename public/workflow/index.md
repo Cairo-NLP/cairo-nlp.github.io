@@ -82,11 +82,6 @@ from bertopic.vectorizers import ClassTfidfTransformer
 
 ```
 
-    /Users/ahmed/Desktop/arabic-nlp-2025-viz/.venv/lib/python3.11/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
-      from .autonotebook import tqdm as notebook_tqdm
-
-
-
 ```python
 def load_metadata_dir(directory: str) -> pd.DataFrame:
     files = os.listdir(directory)
