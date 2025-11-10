@@ -8,8 +8,15 @@
     <language>en-us</language>
     <managingEditor>cairo.nlp.group@gmail.com (cAIro|NLP Group)</managingEditor>
     <webMaster>cairo.nlp.group@gmail.com (cAIro|NLP Group)</webMaster>
-    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reasoning with Brain-Like Specialization</title>
+      <link>http://localhost:1313/talks/talk_3/badr_talk/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
+      <guid>http://localhost:1313/talks/talk_3/badr_talk/</guid>
+      <description>Abstract Human cognition relies on specialized brain networks for language, logic, and social reasoning. Inspired by this organization, we introduce Mixture of Cognitive Reasoners (MiCRo) — a modular transformer that develops brain-like specialization across experts. Each expert aligns with a distinct cognitive domain, enabling interpretable behavior and controllable reasoning. These experts are causally meaningful: ablating one selectively impairs its domain, while routing tokens toward specific experts steers the model’s outputs. MiCRo matches or surpasses standard baselines on reasoning and human behavioral benchmarks, demonstrating that cognitive modularity can enhance both performance and interpretability.</description>
+    </item>
     <item>
       <title>Arabic NLP Tools and Datasets</title>
       <link>http://localhost:1313/talks/talk_2/jarrar_talk/</link>

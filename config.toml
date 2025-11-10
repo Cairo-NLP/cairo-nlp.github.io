@@ -13,9 +13,9 @@ theme = "nightfall"
     weight = 1
     url = "talks"
   [[menu.header]]
-    name = "paper-digest"
+    name = "arabic-nlp-umap"
     weight = 2
-    url = "paper-digest"
+    url = "arabic-nlp-umap"
 
 
 [params]

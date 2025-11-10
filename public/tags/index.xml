@@ -8,8 +8,29 @@
     <language>en-us</language>
     <managingEditor>cairo.nlp.group@gmail.com (cAIro|NLP Group)</managingEditor>
     <webMaster>cairo.nlp.group@gmail.com (cAIro|NLP Group)</webMaster>
-    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cognition</title>
+      <link>http://localhost:1313/tags/cognition/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
+      <guid>http://localhost:1313/tags/cognition/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mixture of Experts</title>
+      <link>http://localhost:1313/tags/mixture-of-experts/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
+      <guid>http://localhost:1313/tags/mixture-of-experts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reasoning</title>
+      <link>http://localhost:1313/tags/reasoning/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
+      <guid>http://localhost:1313/tags/reasoning/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Arabic</title>
       <link>http://localhost:1313/tags/arabic/</link>

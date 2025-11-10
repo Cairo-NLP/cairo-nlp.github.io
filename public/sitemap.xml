@@ -3,14 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/talks/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/eli5/</loc>
     <lastmod>2024-09-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/paper-digest/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cognition/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mixture-of-experts/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/reasoning/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/talks/talk_3/badr_talk/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/arabic/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
@@ -18,13 +34,7 @@
     <loc>http://localhost:1313/talks/talk_2/jarrar_talk/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/datasets/</loc>
-    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tools/</loc>
