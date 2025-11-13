@@ -4,7 +4,7 @@ date: 2025-05-21
 draft: false
 speaker: "Prof. Mustafa Jarrar"
 speaker_image: "/images/speakers/jarrar.png"  # Add this line
-affiliation: "Microsoft"
+affiliation: "Hamad Bin Khalifa University/Qatar and Birzeit University/Palestine"
 event_date: "2025-05-20"
 time: "7:00 PM Cairo/Palestine Time"
 location: "Online (Google Meet)"
