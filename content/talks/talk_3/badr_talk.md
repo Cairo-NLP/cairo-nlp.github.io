@@ -4,7 +4,7 @@ date: 2025-10-23
 draft: false
 speaker: "Badr AlKhamissi"
 speaker_image: "/images/speakers/badr.jpeg"  # Add this line
-affiliation: "Microsoft"
+affiliation: "EPFL"
 event_date: "2025-10-23"
 time: "9:00 PM Cairo/Palestine Time"
 location: "Online (Google Meet)"
