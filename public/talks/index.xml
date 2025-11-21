@@ -8,8 +8,15 @@
     <language>en-us</language>
     <managingEditor>cairo.nlp.group@gmail.com (cAIro|NLP Group)</managingEditor>
     <webMaster>cairo.nlp.group@gmail.com (cAIro|NLP Group)</webMaster>
-    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cracking Long Sequences “How Mamba Outperforms Transformers”</title>
+      <link>http://localhost:1313/talks/talk_4/younis_talk/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
+      <guid>http://localhost:1313/talks/talk_4/younis_talk/</guid>
+      <description>Abstract Demystifies how Mamba models efficiently handle extremely long sequences while outperforming Transformers in speed, scalability, and memory usage. We break down the core ideas behind selective state-space models, why they excel where attention struggles, and what this shift means for the future of sequence modeling.&#xA;Speaker Bio Short Bio: Younis is an (NLP Research Engineer ll) and a Computer Science Master’s student specializing in multimodal AI systems and advanced speech-modeling, with research spanning conversational analysis, interaction modeling, and real-time systems.</description>
+    </item>
     <item>
       <title>Reasoning with Brain-Like Specialization</title>
       <link>http://localhost:1313/talks/talk_3/badr_talk/</link>

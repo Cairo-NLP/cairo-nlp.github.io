@@ -8,8 +8,29 @@
     <language>en-us</language>
     <managingEditor>cairo.nlp.group@gmail.com (cAIro|NLP Group)</managingEditor>
     <webMaster>cairo.nlp.group@gmail.com (cAIro|NLP Group)</webMaster>
-    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mamba</title>
+      <link>http://localhost:1313/tags/mamba/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
+      <guid>http://localhost:1313/tags/mamba/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sequence Modeling</title>
+      <link>http://localhost:1313/tags/sequence-modeling/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
+      <guid>http://localhost:1313/tags/sequence-modeling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>State-Space Models</title>
+      <link>http://localhost:1313/tags/state-space-models/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate><author>cairo.nlp.group@gmail.com (cAIro|NLP Group)</author>
+      <guid>http://localhost:1313/tags/state-space-models/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cognition</title>
       <link>http://localhost:1313/tags/cognition/</link>

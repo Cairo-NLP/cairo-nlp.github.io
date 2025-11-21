@@ -3,14 +3,14 @@ title: "Cracking Long Sequences “How Mamba Outperforms Transformers”"
 date: 2025-11-18
 draft: false
 speaker: "Abdullah Younis"
-speaker_image: "/images/speakers/badr.jpeg"  # Add this line
+speaker_image: "/images/speakers/younis.jpeg"  # Add this line
 affiliation: ""
 event_date: "2025-11-18"
 time: "7:30 PM Cairo Time"
 location: "Online (Google Meet)"
 status: "upcoming"
 tags: ["Mamba", "state-space models", "sequence modeling"]
-video_url: ""
+video_url: "https://youtu.be/l3nRiVVIhAU"
 ---
 
 ## Abstract
