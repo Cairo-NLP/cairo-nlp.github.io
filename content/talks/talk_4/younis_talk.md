@@ -8,7 +8,7 @@ affiliation: ""
 event_date: "2025-11-18"
 time: "7:30 PM Cairo Time"
 location: "Online (Google Meet)"
-status: "upcoming"
+status: "completed"
 tags: ["Mamba", "state-space models", "sequence modeling"]
 video_url: "https://youtu.be/l3nRiVVIhAU"
 ---
